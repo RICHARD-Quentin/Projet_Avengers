@@ -4,8 +4,6 @@ Installer docker desktop https://www.docker.com/get-started et autoriser la virt
 
 Installer gow https://github.com/bmatzelle/gow/releases
 
-Installer yarn https://classic.yarnpkg.com/en/docs/install/#windows-stable
-
 Bonus ( presque obligatoire ) installer le plug in Vue Devtools 
 Chrome : https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 Mozilla : https://addons.mozilla.org/fr/firefox/addon/vue-js-devtools/
@@ -30,6 +28,8 @@ docker run --rm -it \
                  toroia/nodejs \
                  bash
 bash-5.0#
+
+Etape 4.5 : Installer yarn https://classic.yarnpkg.com/en/docs/install/#windows-stable
 
 Etape 5 :toujours dans le terminal phpstorm se placer dans le projet : cd ProjetAvengers
 
