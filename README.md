@@ -49,3 +49,4 @@ https://fr.vuejs.org/v2/guide/index.html#Rendu-declaratif
 grafikart en a fait une bonne partie en vidéo : https://www.youtube.com/watch?v=g7YKecZhFRA&list=PLjwdMgw5TTLW-mAtlR46VajrKs4dep3y0
 
 vuetify : https://vuetifyjs.com/fr-FR/getting-started/quick-start/
+playlist de tuto vidéo vuetify en anglais : https://www.youtube.com/watch?v=2uZYKcKHgU0&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5
