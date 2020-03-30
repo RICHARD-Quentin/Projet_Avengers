@@ -29,9 +29,9 @@ docker run --rm -it \
                  bash
 bash-5.0#
 
-Etape 5 : se placer dans le projet : cd ProjetAvengers
+Etape 5 :toujours dans le terminal phpstorm se placer dans le projet : cd ProjetAvengers
 
-Etape 6 : taper la commande : yarn dev
+Etape 6 :toujorus dans le terminal phpstorm taper la commande : yarn dev
 
 Attendre que le projet compile, il devrait apparaître :
 
