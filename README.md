@@ -18,6 +18,7 @@ bash-5.0#
 Etape 5 : se placer dans le projet : cd ProjetAvengers
 Etape 6 : taper la commande : yarn dev
 Attendre que le projet compile, il devrait apparaître :
+
 ✔ Client
   Compiled successfully in 4.55s
 
