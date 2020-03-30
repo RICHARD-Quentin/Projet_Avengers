@@ -77,12 +77,29 @@
 <script>
     export default {
         name: "incidents",
+      data() {
+        return{
+          name: '',
+          email: '',
+          select: null,
+          items: [
+            'Item 1',
+            'Item 2',
+            'Item 3',
+            'Item 4',
+          ],
+          checkbox: false,
+        }
+      },
+      methods: {
 
-      data () {
-        return {
-          tabs: null,
-
-
+        submit(){
+        },
+        clear(){
+          this.name = '',
+            this.email = '',
+            this.select = null,
+            this.checkbox = null
         }
       }
     }

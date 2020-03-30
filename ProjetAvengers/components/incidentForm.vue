@@ -30,9 +30,8 @@
 <script>
 
   export default {
-    name: "inceidentForm",
-
-    data: () => ({
+    data() {
+      return{
       name: '',
       email: '',
       select: null,
@@ -43,19 +42,20 @@
         'Item 4',
       ],
       checkbox: false,
-    }),
-    methods: {
-      submit() {
+      }
+    },
+      methods: {
+
+      submit(){
         this.$refs.observer.validate()
       },
-      clear() {
-        this.name = ''
-        this.email = ''
-        this.select = null
-        this.checkbox = null
+      clear(){
+        this.name = '',
+        this.email = '',
+        this.select = null,
+        this.checkbox = null,
         this.$refs.observer.reset()
-      },
-
+      }
     }
   }
 </script>
