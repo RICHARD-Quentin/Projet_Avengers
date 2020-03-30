@@ -4,6 +4,8 @@ Installer docker desktop https://www.docker.com/get-started et autoriser la virt
 
 Installer gow https://github.com/bmatzelle/gow/releases
 
+Installer yarn https://classic.yarnpkg.com/en/docs/install/#windows-stable
+
 Bonus ( presque obligatoire ) installer le plug in Vue Devtools 
 Chrome : https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 Mozilla : https://addons.mozilla.org/fr/firefox/addon/vue-js-devtools/
