@@ -10,7 +10,7 @@ Mozilla : https://addons.mozilla.org/fr/firefox/addon/vue-js-devtools/
 
 # Comment lancer le projet ?
 
-Etape 1 : cloner le projet ( evitez de cloner le projet dans des dossier avec nom tout en majuscule )
+Etape 1 : cloner le projet ( evitez de cloner le projet dans un chemin avec des nom de dossier tout en majuscule )
 
 git clone https://github.com/RICHARD-Quentin/Projet_Avengers.git
 
