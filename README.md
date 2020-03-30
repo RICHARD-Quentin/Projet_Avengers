@@ -1,6 +1,7 @@
 # Comment lancer le projet ?
 
 Etape 1 : cloner le projet
+
 git clone https://github.com/RICHARD-Quentin/Projet_Avengers.git
 
 Etape 2 : lancer docker, attendre la notification "docker is running"
