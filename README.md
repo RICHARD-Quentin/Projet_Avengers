@@ -1,6 +1,16 @@
+# Prérequis
+
+Installer docker desktop https://www.docker.com/get-started et autoriser la virtualisation dans le BIOS si ce n'est pas deja le cas ( pour le vérifier, Gestionnaire des Tâches > Performance, en bas a droite en dessous des processeurs logiques, ça doit être Activé )
+
+Installer gow https://github.com/bmatzelle/gow/releases
+
+Bonus ( presque obligatoire ) installer le plug in Vue Devtools 
+Chrome : https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+Mozilla : https://addons.mozilla.org/fr/firefox/addon/vue-js-devtools/
+
 # Comment lancer le projet ?
 
-Etape 1 : cloner le projet
+Etape 1 : cloner le projet ( evitez de cloner le projet dans un chemin avec des nom de dossier tout en majuscule )
 
 git clone https://github.com/RICHARD-Quentin/Projet_Avengers.git
 
@@ -19,9 +29,11 @@ docker run --rm -it \
                  bash
 bash-5.0#
 
-Etape 5 : se placer dans le projet : cd ProjetAvengers
+Etape 4.5 : Installer yarn https://classic.yarnpkg.com/en/docs/install/#windows-stable
 
-Etape 6 : taper la commande : yarn dev
+Etape 5 :toujours dans le terminal phpstorm se placer dans le projet : cd ProjetAvengers
+
+Etape 6 :toujorus dans le terminal phpstorm taper la commande : yarn dev
 
 Attendre que le projet compile, il devrait apparaître :
 
@@ -32,3 +44,14 @@ Attendre que le projet compile, il devrait apparaître :
   Compiled successfully in 4.32s
   
 Etape 7 : localhost:3001 pour accéder au site
+
+# Documentation
+vueJS :
+https://fr.vuejs.org/v2/guide/index.html#Rendu-declaratif
+
+grafikart en a fait une bonne partie en vidéo : https://www.youtube.com/watch?v=g7YKecZhFRA&list=PLjwdMgw5TTLW-mAtlR46VajrKs4dep3y0
+
+
+vuetify : https://vuetifyjs.com/fr-FR/getting-started/quick-start/
+
+playlist de tuto vidéo vuetify en anglais : https://www.youtube.com/watch?v=2uZYKcKHgU0&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5
