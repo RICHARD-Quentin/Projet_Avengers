@@ -13,17 +13,14 @@
         :headers="headers"
         :items="civils"
         :search="search"
-        v-on:click:row="dialogCivil=!dialogCivil"
+        v-on:click:row="dialogCivil = !dialogCivil"
         >
         <template v-slot:body="{ items }">
         <tbody>
-        <tr v-for="item in items" @click="civilId=(item.id)-1, dialogCivil=!dialogCivil">
+        <tr v-for="item in items" :key="item.id" @click="civilId=(item.id), dialogCivil=!dialogCivil">
           <td>{{item.civilite}}</td>
           <td>{{item.nom}}</td>
           <td>{{item.prenom}}</td>
-          <td>{{item.code_postal}}</td>
-          <td>{{item.ville}}</td>
-          <td>{{item.pays}}</td>
         </tr>
         </tbody>
         </template>
@@ -56,8 +53,6 @@
                   <p>{{civils[civilId].civilite}} {{civils[civilId].nom}} {{civils[civilId].prenom}}</p>
                   <p>Née le {{civils[civilId].date_de_naissance}}</p>
                   <p> Nationalitée : {{civils[civilId].nationalite}}</p>
-                  <p> Habite à {{civils[civilId].ville}}</p>
-
                 </v-card-text>
               </v-card>
             </v-tab-item>
@@ -149,10 +144,7 @@
             value: 'civilite',
           },
           { text: 'Nom', value: 'nom' },
-          { text: 'Prenom', value: 'prenom' },
-          { text: 'Code Postal', value: 'code_postal' },
-          { text: 'Ville', value: 'ville' },
-          { text: 'Pays', value: 'pays' },
+          { text: 'Prenom', value: 'prenom' }
         ],
         civils: [],
         dialogCivil: false,
@@ -165,9 +157,13 @@
       }
     },
     mounted() {
-      this.$axios.$get('http://localhost:8080/utilisateurs')
+      this.$axios.$get('https://localhost:44330/api/civils')
         .then(response => this.civils=response)
+        .then(response => console.log(response))
         .catch(error => console.log(error))
+//        this.$axios.$get('https://localhost:44330/api/coordonnees')
+//          .then(response => this.civils=response)
+//          .catch(error => console.log(error))
     }
   }
 </script>

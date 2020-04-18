@@ -96,7 +96,9 @@
           {icon:'mdi-star-circle-outline', text: 'Super heros', route:'/super_hero'},
           {icon:'mdi-emoticon-devil-outline', text:'Super vilains', route:'/super_vilains'},
           {icon:'mdi-alert-decagram', text:'Incidents', route:'/incidents'},
-          {icon:'mdi-handshake', text:'Missions', route:'/missions'}
+          {icon:'mdi-handshake', text:'Missions', route:'/missions'},
+          {icon:'mdi-handshake', text:'Test', route:'/test'}
+
         ],
       }
     },
